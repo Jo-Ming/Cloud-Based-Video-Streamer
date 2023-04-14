@@ -1,0 +1,58 @@
+[
+  {
+    "title": "First Course",
+    "description": "test Course Description. Here we can write a nice long description about how this course will grant yuo all the gainz you need to get swole",
+    "time": "10 hours",
+    "price": "Free",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_1.jpg?alt=media&token=f26057f4-0c9a-4bb5-8d87-dd20965971fd",
+    "VideoList" : [{
+      "title": "Course 1: First Video",
+      "description" : "This is the first video in the course",
+      "time": "45 seconds",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_1.jpg?alt=media&token=f26057f4-0c9a-4bb5-8d87-dd20965971fd",
+      "videoUrl": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fvideos%2Fvideo_1.mp4?alt=media&token=30cdf9f8-6e51-4d13-b1e5-71355bc69888"
+    },
+    {
+      "title": "Course 1: Second Video",
+      "description" : "This is the second video in the course",
+      "time": "55 seconds",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_2.jpg?alt=media&token=1e1489bf-a71d-4c3e-8764-9b459866fb10",
+      "videoUrl": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fvideos%2Fvideo_2.mp4?alt=media&token=2ebaf2a5-c714-4111-8066-6294a85a5d71"
+    },
+    {
+      "title": "Course 1: Third Video",
+      "description" : "This is the third video in the course",
+      "time": "60 seconds",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_3.jpg?alt=media&token=4986d3c7-5122-42c3-8139-1aed4f995767",
+      "videoUrl": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fvideos%2Fvideo_3.mp4?alt=media&token=60593b4f-edcf-45a7-8e24-74716632bc7c"
+    },
+    {
+      "title": "Course 1: Forth Video",
+      "description" : "This is the fourth video in the course",
+      "time": "120 seconds",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_4.jpg?alt=media&token=337d1df0-6b8d-411c-be66-879cf67a4e6f",
+      "videoUrl": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fvideos%2Fvideo_4.mp4?alt=media&token=c9e1cb07-2b31-4b91-b820-66c75ac64dc2"
+    }]
+  },
+  {
+    "title": "Second Course",
+    "description": "What best describes this course?",
+    "time": "5 hours",
+    "price": "100",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_2.jpg?alt=media&token=1e1489bf-a71d-4c3e-8764-9b459866fb10",
+    "VideoList" : [{
+      "title": "Course 1: First Video",
+      "description" : "This is the first video in the course",
+      "time": "45 seconds",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_1.jpg?alt=media&token=f26057f4-0c9a-4bb5-8d87-dd20965971fd",
+      "videoUrl": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fvideos%2Fvideo_1.mp4?alt=media&token=30cdf9f8-6e51-4d13-b1e5-71355bc69888"
+    },
+    {
+      "title": "Course 1: Second Video",
+      "description" : "This is the second video in the course",
+      "time": "55 seconds",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fthumbnails%2Fimage_2.jpg?alt=media&token=1e1489bf-a71d-4c3e-8764-9b459866fb10",
+      "videoUrl": "https://firebasestorage.googleapis.com/v0/b/theforge-dev-1e9f3.appspot.com/o/TestCourse%2Fvideos%2Fvideo_2.mp4?alt=media&token=2ebaf2a5-c714-4111-8066-6294a85a5d71"
+    }]
+  }
+  ]
