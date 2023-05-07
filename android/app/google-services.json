@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060735655453",
+    "project_id": "theforge-dev-1e9f3",
+    "storage_bucket": "theforge-dev-1e9f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060735655453:android:ee4c49248fd55aa08bf0f4",
+        "android_client_info": {
+          "package_name": "com.example.video_player_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060735655453-j8g5p1u6dvtbk2v1tneuemuag027pckq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCusoP7JUTVqTRjBS01gBh4rmAR_zpzgKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060735655453-j8g5p1u6dvtbk2v1tneuemuag027pckq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,13 @@
 import 'dart:convert';
 import 'dart:developer';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../Models/Course.dart';
+import '../Utilities/LoginWidget.dart';
 import '../Utilities/course_tile.dart';
+import '../main.dart';
 
 class CourseListPage extends StatefulWidget {
   @override
@@ -33,6 +36,7 @@ class _CourseListPageState extends State<CourseListPage> {
 
   @override
   Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser!;
     return Scaffold(
       appBar: AppBar(
         title: Text("Course List"),
@@ -47,8 +51,8 @@ class _CourseListPageState extends State<CourseListPage> {
         child: ListView(
           children: [
             UserAccountsDrawerHeader(
-              accountName: Text("User Name"),
-              accountEmail: Text("user@example.com"),
+              accountName: Text("Logged In as:"),
+              accountEmail: Text("${user.email}"),
               currentAccountPicture: CircleAvatar(
                 child: Icon(Icons.person),
               ),
@@ -66,7 +70,13 @@ class _CourseListPageState extends State<CourseListPage> {
             ListTile(
               leading: Icon(Icons.logout),
               title: Text("Logout"),
-              onTap: () {},
+              onTap: () async {
+                await FirebaseAuth.instance.signOut();
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => mainLogin()),
+                );
+              },
             ),
           ],
         ),
